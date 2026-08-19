@@ -1,0 +1,21 @@
+# 构建产物
+output/
+release/
+
+# 大文件不入库
+packer/iso/*.qcow2
+packer/iso/*.iso
+packer/files/*.deb
+
+# 本地配置
+dist/config.json
+manifest.json
+
+# IDE
+.idea/
+
+# macOS
+.DS_Store
+
+*.log
+*.tmp
