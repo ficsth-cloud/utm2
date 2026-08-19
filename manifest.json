@@ -1,0 +1,51 @@
+{
+  "version": "2.0.0",
+  "released_at": "2026-03-20",
+  "description": "合规隔离办公环境 (Debian 12) - 预装 Firefox、Telegram、WPS/LibreOffice",
+  "guest_os": "Debian 12",
+  "vm_name": "ComplianceDesktop",
+  "default_user": "user",
+  "default_password_hint": "ChangeMe123! (首次登录请修改)",
+  "min_requirements": {
+    "ram_gb": 8,
+    "disk_gb": 30,
+    "cpu_cores": 2
+  },
+  "artifacts": {
+    "x64_ova": {
+      "filename": "ComplianceDesktop-x64.ova",
+      "url": "http://your-nas.local/compliance-desktop/ComplianceDesktop-x64.ova",
+      "sha256": "REPLACE_WITH_SHA256",
+      "size_bytes": 0,
+      "platforms": [
+        "windows",
+        "mac-intel"
+      ],
+      "hypervisor": "virtualbox"
+    },
+    "x64_utm": {
+      "filename": "ComplianceDesktop-x64.utm.zip",
+      "url": "http://your-nas.local/compliance-desktop/ComplianceDesktop-x64.utm.zip",
+      "sha256": "REPLACE_WITH_SHA256",
+      "size_bytes": 0,
+      "platforms": [
+        "mac-intel"
+      ],
+      "hypervisor": "utm"
+    },
+    "arm64_utm": {
+      "filename": "ComplianceDesktop-arm64.utm.zip",
+      "url": "https://github.com/mongram-app/utm/releases/download/v1.0.0/ComplianceDesktop-arm64.utm.zip",
+      "sha256": "fd14015608f205c9b7921107af929320d0e1045591a1ec69534a1950e8f4dd07",
+      "size_bytes": 1856877608,
+      "platforms": [
+        "mac-arm64"
+      ],
+      "hypervisor": "utm"
+    }
+  },
+  "hypervisor_versions": {
+    "virtualbox_min": "7.0.0",
+    "utm_min": "4.0.0"
+  }
+}
