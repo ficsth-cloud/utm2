@@ -36,7 +36,7 @@
     "arm64_utm": {
       "filename": "ComplianceDesktop-arm64.utm.zip",
       "url": "https://github.com/mongram-app/utm/releases/download/v1.0.0/ComplianceDesktop-arm64.utm.zip",
-      "sha256": "fd14015608f205c9b7921107af929320d0e1045591a1ec69534a1950e8f4dd07",
+      "sha256": "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5",
       "size_bytes": 1856877608,
       "platforms": [
         "mac-arm64"
