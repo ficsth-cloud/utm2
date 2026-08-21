@@ -14,9 +14,9 @@
   "artifacts": {
     "x64_ova": {
       "filename": "ComplianceDesktop-x64.ova",
-      "url": "http://your-nas.local/compliance-desktop/ComplianceDesktop-x64.ova",
-      "sha256": "REPLACE_WITH_SHA256",
-      "size_bytes": 0,
+      "url": "https://github.com/ficsth-cloud/utm2/releases/download/v2.0.0/ComplianceDesktop-x64.ova",
+      "sha256": "31a8dda455d1f441b0f194a178a72b17d6c0e176d352c75ccc24b5a7b8414f07",
+      "size_bytes": 1879726080,
       "platforms": [
         "windows",
         "mac-intel"
