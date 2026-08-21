@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "released_at": "2026-03-20",
-  "description": "合规隔离办公环境 (Debian 12) - 预装 Firefox、Telegram、WPS/LibreOffice",
+  "description": "合规隔离办公环境 (Debian 12) - 预装 Firefox、Telegram、RustDesk、WPS/LibreOffice",
   "guest_os": "Debian 12",
   "vm_name": "ComplianceDesktop",
   "default_user": "user",
@@ -35,9 +35,9 @@
     },
     "arm64_utm": {
       "filename": "ComplianceDesktop-arm64.utm.zip",
-      "url": "https://github.com/ficsth-cloud/utm2/releases/download/v1.0.0/ComplianceDesktop-arm64.utm.zip",
-      "sha256": "b120344da3d52f547809d9848e1ac44aeb9c4b470dc09c951a10a0598c41d8db",
-      "size_bytes": 1856877608,
+      "url": "https://github.com/ficsth-cloud/utm2/releases/download/v2.0.0/ComplianceDesktop-arm64.utm.zip",
+      "sha256": "5367b159104ca5265c9bd9a11ed8e1e4ac3031dd633f36bd6f5614d2ec6c6505",
+      "size_bytes": 1889000229,
       "platforms": [
         "mac-arm64"
       ],
